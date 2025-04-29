@@ -1,0 +1,70 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #ffc0cb;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  /* Judul */
+  .judul {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #c2185b;
+  }
+  
+  /* Video */
+  .video-box {
+    border: 5px solid #c2185b;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .video-box video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Deskripsi */
+  .deskripsi {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  /* Tombol Kembali */
+  .btn-kembali {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #c2185b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-kembali:hover {
+    background-color: #a3154c;
+  }
+  
